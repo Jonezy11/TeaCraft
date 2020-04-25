@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": {"model": "examplemod:block/microscope"},
+		"facing=east": {"model": "examplemod:block/microscope", "y": 90},
+		"facing=south": {"model": "examplemod:block/microscope", "y": 180},
+		"facing=west": {"model": "examplemod:block/microscope", "y": 270}
+	}
+}

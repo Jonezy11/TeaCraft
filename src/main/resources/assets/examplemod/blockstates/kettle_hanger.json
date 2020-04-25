@@ -1,0 +1,28 @@
+{
+    "multipart": [
+        {   "when": { "facing": "north" },
+            "apply": { "model": "examplemod:block/kettle_hanger" }
+        },
+        {   "when": { "facing": "east" },
+            "apply": { "model": "examplemod:block/kettle_hanger", "y": 90 }
+        },
+        {   "when": { "facing": "south" },
+            "apply": { "model": "examplemod:block/kettle_hanger", "y": 180 }
+        },
+        {   "when": { "facing": "west" },
+            "apply": { "model": "examplemod:block/kettle_hanger", "y": 270 }
+        },
+        {   "when": { "facing": "north", "kettle": "true" },
+            "apply": { "model": "examplemod:block/kettle" }
+        },
+        {   "when": { "facing": "east", "kettle": "true" },
+            "apply": { "model": "examplemod:block/kettle", "y": 90 }
+        },
+        {   "when": { "facing": "south", "kettle": "true" },
+            "apply": { "model": "examplemod:block/kettle", "y": 180 }
+        },
+        {   "when": { "facing": "west", "kettle": "true" },
+            "apply": { "model": "examplemod:block/kettle", "y": 270 }
+        }
+    ]
+}
